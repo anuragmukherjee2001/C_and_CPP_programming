@@ -3,12 +3,12 @@
 int main()
 {
 	int a = 1,n = 0;
-	printf("\n enter the range");
+	printf("\n enter the range: ");
 	scanf("%d",&n);
 	
-	while(a < n)
+	while(a <= n)
 	{
-		printf("\n %d",a);
+		printf("\t %d",a);
 		a++;
 	}
 	return 0;
